@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(3, 0,5fr) repeat(3 1,5fr) repeat(2, 0,5fr);
@@ -21,7 +22,7 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 98vw;
     display: grid;
     grid-area: header;
     grid-template-rows: repeat(2, 1fr);
@@ -46,10 +47,11 @@ header {
 
 .header__div--h1 {
     padding-left: 2vw;
+    text-shadow: 0 0 4px goldenrod;
 }
 
 nav {
-    width: 100vw;
+    width: 98vw;
     background-color: #f00;
     border: 2px solid black;
     grid-area: botonera;
@@ -92,7 +94,7 @@ nav ul li {
     grid-area: ultimasnoticias;
 }
 
-main div h2 {
+#main__div__h2 {
     background-color: #f00;
     display: inline-block;
     padding: .5vw 3vw .5vw 3vw;
@@ -138,12 +140,18 @@ main div h2 {
     padding-top: 1vw;
 }
 
+main section h3 {
+    margin-top: 0.4vw;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #f00;
     border: 2px solid black;
+    margin-top: 2vw;
     padding-left: 1vw;
     padding-top: 1vw;
-    width: 100vw;
+    width: 98vw;
     display: grid;
     grid-area: footer;
     grid-template-rows: repeat(2, 1fr);
@@ -186,4 +194,92 @@ footer div img {
     max-width: 80px;
     max-height: 30px;
     padding-right: 1vw;
+}
+
+
+
+/* CSS DE PAGINA EVENTOS */
+/* Traer footer adelante */
+
+#maineventos {
+    position: relative;
+    height: 100vw;
+    width: 98vw;
+    display: grid;
+    grid-template-rows: 0,5fr 3fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "div1 div1"
+                         "div2 div3"
+                         "div4 div4"
+}
+
+#div1 {
+    background-color: rgb(242, 242, 232);
+    border: 2px solid black;
+    grid-area: div1;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+}
+
+#div2 {
+    text-align: center;
+    background-color: rgb(242, 242, 232);
+    border: 2px solid black;
+    grid-area: div2;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+#div3 {
+    text-align: center;
+    background-color: rgb(242, 242, 232);
+    border: 2px solid black;
+    grid-area: div3;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+#div4 {
+    text-align: center;
+    background-color: rgb(242, 242, 232);
+    border: 2px solid black;
+    grid-area: div4;
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+li {
+    list-style: none;
+}
+
+.main__div__h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-bottom: 1vw;
+}
+
+div ol li p {
+    border: 1px solid #f00;
+    margin-top: 0.3em;
+    margin-bottom: 0,5em;
+    padding-top: 0.3em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    display: inline-block;
+    background-color: #182069;
+    color: white;
+}
+
+.categoria {
+    margin-bottom: 1vw;
+    border: 2px dotted goldenrod;
+    text-align: center;
+    line-height: 1.6;
 }
