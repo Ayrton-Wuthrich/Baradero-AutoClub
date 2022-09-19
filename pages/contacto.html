@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href=".././assets/image/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=".././css/style.css">
     <title>Baradero AutoClub</title>
 </head>
@@ -26,8 +35,49 @@
         </nav>
     </header>
 
-    <main>
+    <main id="mainconsulta">
 
+        <form id="form" action="" method="post">
+
+            <fieldset>
+                <legend>Para cualquier consulta envie su mail</legend>
+                <div>
+                    <label for="Nombre">Ingrese su nombre:</label><br>
+                    <input type="text" id="Nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div>
+                    <label for="Email">Email:</label><br>
+                    <input type="text" id="Email" placeholder="ej: Baraderoautoclub@gmail.com" required>
+                </div>
+                <div>
+                    <label for="Descripcion">Consulta:</label><br>
+                    <textarea cols="50" rows="10" id="Descripcion" placeholder="Consulte aqui"></textarea>
+                </div>
+                <div>
+                <input id="enviar" type="submit" value="Enviar consulta">
+            </div>
+            </fieldset>
+        </form>
+
+        <div id="comision">
+            <h2 id="titulocomision">Comision directiva actual</h2>
+            <ul>
+                <li><i>Presidente:</i> Emiliano Millan</li>
+                <li><i>VicePresidente 1°:</i> Norberto Mosquera</li>
+                <li><i>VicePresidente 2°:</i> Maialen Vilchez</li>
+                <li><i>Secretario:</i> Lluis Conesa</li>
+                <li><i>Prosecretario:</i> Maialen Barrios</li>
+                <li><i>Tesorero:</i> Khadija Lobato</li>
+                <li><i>Protesorero:</i> Lluc Snchez</li>
+                <li><i>Vocal:</i> Emiliano Cardenas</li>
+                <li><i>Vocales:</i> Felipe Arevalo</li>
+                <li><i>Vocales:</i> Laura Coll</li>
+                <li><i>Vocales:</i> Armando Manzano</li>
+                <li><i>Vocales:</i> Alfonsa Caparros</li>
+            </ul>
+        </div>
+        
+    
     </main>
 
     <footer>
