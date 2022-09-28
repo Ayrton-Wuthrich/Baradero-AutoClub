@@ -29,14 +29,47 @@ header {
     padding: 0.5vw;
     max-width: 80px;
     max-height: 80px;
-    transform: rotate(360deg);
-    transition: 3s;
+    /* transform: rotate(360deg);
+    transition: 3s; */
+    animation-name: animacion_logo;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .header__div--h1 {
     padding-left: 2vw;
     text-shadow: 0 0 4px goldenrod;
 }
+
+/* ANIMACION */
+
+@keyframes animacion_logo {
+
+    from {
+        transform: rotate(0deg);
+    }
+/* 
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    } */
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 
 nav {
     background: #f00;
