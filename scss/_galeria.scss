@@ -1,0 +1,90 @@
+#maingaleria {
+    width: auto;
+    background: #182069;
+    font-family: 'Raleway', sans-serif;
+    #maintitulo {
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 40px;
+        color: white;
+    }
+    .linea {
+        background: #f00;
+        height: 5px;
+        width: auto;
+        display: block;
+    }
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+        width: 94%;
+        margin: auto;
+        grid-gap: 10px;
+        padding: 40px 0;
+        overflow: hidden;
+        a {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+            img {
+                width: 100%;
+                vertical-align: top;
+                height: 300px;
+                object-fit: cover;
+                transition: transform .5s;
+            }
+            &:hover img {
+                filter: blur(2px);
+                transform: rotate(10deg) scale(1.3);
+            }
+        }
+    }
+    .presentarimagen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .5);
+        transition: transform .3s ease-in-out;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        img {
+            width: 75vw;
+            max-height: 90vh;
+        }
+        &:target {
+            transform: scale(1);
+        }
+        .close {
+            display: block;
+            position: relative;
+            top: 40px;
+            right: 40px;
+            background: #f00;
+            color: white;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+        }
+        .next {
+            display: block;
+            background: #f00;
+            color: white;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+}

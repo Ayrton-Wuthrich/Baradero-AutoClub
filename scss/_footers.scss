@@ -1,0 +1,35 @@
+footer {
+    background-color: #f00;
+    border: 2px solid black;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    line-height: 4;
+    flex-wrap: wrap;
+    .publicidad {
+        display: flex;
+        align-items: center;
+        padding-right: 50px;
+        padding-bottom: 1vw;
+        .botonesfooter {
+            color: white;
+            text-transform: uppercase;
+            border-radius: 5%;
+            padding: 8px 12px;
+            &:hover {
+                background-color: goldenrod;
+                transition: .4s;
+            }
+            img {
+                max-width: 80px;
+                max-height: 30px;
+                padding-right: 1vw;
+                padding-top: 10px;
+            }
+        }
+    }
+}

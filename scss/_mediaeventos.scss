@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+    #maineventos {
+        display: grid;
+        grid-template-rows: 0,5fr 4fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "div1"
+                             "div2"
+                             "div3"
+                             "div4"
+    }
+    
+    #div1 {
+        grid-area: div1;
+    }
+    
+    #div2 {
+        grid-area: div2;
+    }
+    
+    #div3 {
+        grid-area: div3;
+    }
+    
+    #div4 {
+        grid-area: div4;
+    }
+    
+    .main__div--h4 {
+        font-size: 1em;
+    }
+}

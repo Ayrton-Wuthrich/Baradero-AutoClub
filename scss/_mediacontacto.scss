@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+    #maincontacto {
+        padding: 2rem 4rem;
+    }
+
+    .formcompleto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .formcompleto > * {
+        padding: 2em;
+    }
+}
