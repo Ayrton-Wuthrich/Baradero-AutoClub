@@ -4,14 +4,15 @@
     display: grid;
     padding: 1vw;
     grid-template-rows: 0,5fr repeat(3, 1fr);
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: "ultimasnoticias ultimasnoticias"
-                        "noticias1 noticias1"
-                        "noticias2 noticias2"
-                        "noticias3 noticias3";
-    #ultimasnoticias {
+    grid-template-columns: 1fr;
+    grid-template-areas: "ultimasnoticias"
+                        "noticias1"
+                        "noticias2"
+                        "noticias3";
+    div {
         grid-area: ultimasnoticias;
-        .main__div__h2 {
+        text-align: center;
+        h2 {
             font-family: 'Quicksand', sans-serif;
             padding-top: .5em;
             padding-left: 1em;
@@ -25,71 +26,74 @@
     }
     #noticias1 {
         background-color: #0a0f37;
-        width: 60em;
+        width: auto;
         margin-top: 2vw;
         border: 1px solid #f00;
         grid-area: noticias1;
         color: white;
-        .main__section--img {
-            max-height: 15em;
+        img {
+            max-height: 20em;
             float: left;
             position: relative;
             padding: 1vw;
         }
-        .main__section--p {
+        p {
             overflow: hidden;
             padding-top: 0.7vw;
             padding-right: 0.5vw;
         }
-        main section h3 {
+        h3 {
             margin-top: 1vw;
             text-decoration: underline;
+            text-align: center;
         }
     }
     #noticias2 {
         background-color: #0a0f37;
-        width: 60em;
+        width: auto;
         margin-top: 2vw;
         border: 1px solid #f00;
         grid-area: noticias2;
         color: white;
-        .main__section--img {
-            max-height: 15em;
+        img {
+            max-height: 20em;
             float: left;
             position: relative;
             padding: 1vw;
         }
-        .main__section--p {
+        p {
             overflow: hidden;
             padding-top: 0.7vw;
             padding-right: 0.5vw;
         }
-        main section h3 {
+        h3 {
             margin-top: 1vw;
             text-decoration: underline;
+            text-align: center;
         }
     }
     #noticias3 {
         background-color: #0a0f37;
-        width: 60em;
+        width: auto;
         margin-top: 2vw;
         border: 1px solid #f00;
         grid-area: noticias3;
         color: white;
-        .main__section--img {
-            max-height: 15em;
+        img {
+            max-height: 20em;
             float: left;
             position: relative;
             padding: 1vw;
         }
-        .main__section--p {
+        p {
             overflow: hidden;
             padding-top: 0.7vw;
             padding-right: 0.5vw;
         }
-        main section h3 {
+        h3 {
             margin-top: 1vw;
             text-decoration: underline;
+            text-align: center;
         }
     }
 

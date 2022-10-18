@@ -1,74 +1,15 @@
-@media only screen and (min-width: 768px) {
-    .menuboton {
-        display: none;
+@media (max-width: 991px) {
+
+    header .navbar {
+        text-align: center;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: #f00;
+        border-top: 1px solid rgba(0, 0, 0, .1);
     }
 
-    .nav-menu {
-        position: relative;
-        background: none;
-        height: 100px;
-        top: 0;
-        transition: none;
-        text-align: left;
-        margin-right: 50px;
-    }
-
-    .nav-menu li {
-        display: inline-block;
-        line-height: 100px;
-        margin: 0 20px;
-        transition: none;
-    }
-
-    .nav-menu li a {
-        font-size: 14px;
-        border-radius: 3%;
-
-    }
-
-    .nav-menu li a .botones,
-    .botones:hover {
-        background-color: goldenrod;
-        transition: .4s;
-        border-radius: 5%;
-        padding: 6px 10px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .menuboton {
-        display: none;
-    }
-
-    .nav-menu {
-        position: relative;
-        background: none;
-        height: 100px;
-        top: 0;
-        transition: none;
-        text-align: left;
-        margin-right: 50px;
-        color: white;
-    }
-
-    .nav-menu li {
-        display: inline-block;
-        line-height: 100px;
-        margin: 0 30px;
-        transition: none;
-    }
-
-    .nav-menu li a {
-        font-size: 18px;
-        border-radius: 3%;
-
-    }
-
-    .nav-menu li a .botones,
-    .botones:hover {
-        background-color: goldenrod;
-        transition: .4s;
-        border-radius: 5%;
-        padding: 8px 12px;
+    header .navbar ul li {
+        width: 100%;
     }
 }
