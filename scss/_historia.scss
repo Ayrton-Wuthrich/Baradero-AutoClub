@@ -1,37 +1,37 @@
 #mainhistoria {
-    background: #182069;
+    background: map-get($colores, "baseazul");
     width: auto;
     align-items: center;
     text-align: center;
     padding-bottom: 2vw;
     div {
         #titulohistoria {
-            font-family: 'Ms Madi', cursive;
+            font-family: $tipografia-msmadi;
             font-size: 80px;
-            text-shadow: 0 0 10px goldenrod;
+            text-shadow: 0 0 10px map-get($colores, "sombreado");
         }
     }
     section{
         #imagenhistoria {
             margin-top: 4vh;
-            border: 4px solid #182069;
+            border: 4px solid map-get($colores, "baseazul");
             border-radius: 3%;
-            box-shadow: 0 0 10px goldenrod;
+            box-shadow: 0 0 10px map-get($colores, "sombreado");
             overflow: hidden;
             max-width: 600px;
         }
     }
     section {
         #textohistoria {
-            color: white;
-            background-color: #0a0f37;
+            color: map-get($colores, "texto");
+            background-color: map-get($colores, "fondotexto");
             margin: 4vw 8vw;
             line-height: 1.6;
-            border: 2px solid #182069;
+            border: 2px solid map-get($colores, "baseazul");
             border-radius: 3%;
             padding: 1vw;
-            box-shadow: 0 0 20px goldenrod;
-            font-family: 'Raleway', sans-serif;
+            box-shadow: 0 0 20px map-get($colores, "sombreado");
+            font-family: $tipografia-raleway;
             font-size: 20px;
             font-weight: 500;
         }

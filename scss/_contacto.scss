@@ -1,7 +1,7 @@
 #maincontacto {
-    background: #182069;
+    background: map-get($colores, "baseazul");
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: $tipografia-quicksand;
     padding: 0 1em;
     margin-top: auto;
     margin-right: auto;
@@ -12,16 +12,16 @@
             text-align: center;
             font-size: 3em;
             span {
-                color: #f00;
+                color: map-get($colores, "baserojo");
             }
         }
     }
     .formcompleto{
         margin-top: 1em;
-        box-shadow: 0 0 20px goldenrod;
+        box-shadow: 0 0 20px map-get($colores, "sombreado");
         .formsolo{
             padding: 1em;
-            background: #293598;
+            background: map-get($colores, "form");
             form {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -38,10 +38,10 @@
                         background: none;
                         outline: none;
                         color: white;
-                        border-bottom: 1px solid #f00;
+                        border-bottom: 1px solid map-get($colores, "baserojo");
                     }
                     button {
-                        background: #f00;
+                        background: map-get($colores, "baserojo");
                         border: 0;
                         text-transform: uppercase;
                         margin-top: 1em;
@@ -59,7 +59,7 @@
     }
     .infocontacto {
         padding: 1em;
-        background: #0a0f37;
+        background: map-get($colores, "fondotexto");
         h4, ul {
             text-align: center;
             margin: 0 0 1rem 0;
@@ -73,7 +73,7 @@
         }
         #titulocomision {
             font-size: 2em;
-            font-family: 'Ms Madi', cursive;
+            font-family: $tipografia-msmadi;
         }
     }
 }

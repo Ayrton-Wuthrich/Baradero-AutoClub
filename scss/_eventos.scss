@@ -1,7 +1,7 @@
 #maineventos {
-    font-family: 'Quicksand', sans-serif;
-    background: #182069;
-    color: white;
+    font-family: $tipografia-quicksand;
+    background: map-get($colores, "baseazul");
+    color: map-get($colores, "texto");
     width: auto;
     display: grid;
     grid-template-rows: 0,5fr 3fr 1fr;
@@ -10,8 +10,8 @@
                         "div2 div3"
                         "div4 div4";
     #div1 {
-        background-color: #0a0f37;
-        border: 2px solid #f00;
+        background-color: map-get($colores, "fondotexto");
+        border: 2px solid map-get($colores, "baserojo");
         grid-area: div1;
         margin: 1vw;
         padding-bottom: 1vh;
@@ -20,24 +20,24 @@
     }
     #div2 {
         text-align: center;
-        background-color: #0a0f37;
-        border: 2px solid #f00;
+        background-color: map-get($colores, "fondotexto");
+        border: 2px solid map-get($colores, "baserojo");
         grid-area: div2;
         margin: 1vw;
         padding-top: 2vh;
     }
     #div3 {
         text-align: center;
-        background-color: #0a0f37;
-        border: 2px solid #f00;
+        background-color: map-get($colores, "fondotexto");
+        border: 2px solid map-get($colores, "baserojo");
         grid-area: div3;
         margin: 1vw;
         padding-top: 2vh;
     }
     #div4 {
         text-align: center;
-        background-color: #0a0f37;
-        border: 2px solid #f00;
+        background-color: map-get($colores, "fondotexto");
+        border: 2px solid map-get($colores, "baserojo");
         grid-area: div4;
         margin: 1vw;
         padding-top: 2vh;
@@ -56,18 +56,18 @@
         ol{
             .categoria {
                 margin: 1vw;
-                border: 2px dotted goldenrod;
+                border: 2px dotted map-get($colores, "sombreado");
                 text-align: center;
                 line-height: 1.6;
             }
             p {
-                border: 1px solid #f00;
+                border: 1px solid map-get($colores, "baserojo");
                 margin-top: .3em;
                 margin-bottom: .5em;
                 padding: .3em 1em;
                 display: inline-block;
-                background-color: #182069;
-                color: white;
+                background-color: map-get($colores, "baseazul");
+                color: map-get($colores, "texto");
             }
         }
     }

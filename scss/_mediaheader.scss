@@ -5,7 +5,7 @@
         top: 80px;
         left: 0;
         right: 0;
-        background: #f00;
+        background: map-get($colores, "baserojo");
         border-top: 1px solid rgba(0, 0, 0, .1);
     }
 

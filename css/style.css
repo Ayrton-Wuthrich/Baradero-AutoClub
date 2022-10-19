@@ -178,7 +178,7 @@ header nav ul li a:hover {
   background-color: #0a0f37;
   width: auto;
   margin-top: 2vw;
-  border: 1px solid #f00;
+  border: 1px solid #f00 0;
   grid-area: noticias2;
   color: white;
 }
