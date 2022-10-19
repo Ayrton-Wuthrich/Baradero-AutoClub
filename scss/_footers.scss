@@ -1,5 +1,5 @@
 footer {
-    background-color: #f00;
+    background-color: map-get($colores, "baserojo");
     border: 2px solid black;
     padding-left: 1vw;
     padding-top: 1vw;
@@ -16,12 +16,12 @@ footer {
         padding-right: 50px;
         padding-bottom: 1vw;
         .botonesfooter {
-            color: white;
+            color: map-get($colores, "texto");
             text-transform: uppercase;
             border-radius: 5%;
             padding: 8px 12px;
             &:hover {
-                background-color: goldenrod;
+                background-color: map-get($colores, "sombreado");
                 transition: .4s;
             }
             img {

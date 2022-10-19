@@ -1,5 +1,5 @@
 #maininicio {
-    background: #182069;
+    background: map-get($colores, "baseazul");
     width: auto;
     display: grid;
     padding: 1vw;
@@ -13,24 +13,24 @@
         grid-area: ultimasnoticias;
         text-align: center;
         h2 {
-            font-family: 'Quicksand', sans-serif;
+            font-family: $tipografia-quicksand;
             padding-top: .5em;
             padding-left: 1em;
             margin-bottom: 1vw;
-            color: white;
+            color: map-get($colores, "texto");
             font-size: 2em;
             span {
-                color: #f00;
+                color: map-get($colores, "baserojo");
             }
         }
     }
     #noticias1 {
-        background-color: #0a0f37;
+        background-color: map-get($colores, "fondotexto");
         width: auto;
         margin-top: 2vw;
-        border: 1px solid #f00;
+        border: 1px solid map-get($colores, "baserojo");
         grid-area: noticias1;
-        color: white;
+        color: map-get($colores, "texto");
         img {
             max-height: 20em;
             float: left;
@@ -49,12 +49,12 @@
         }
     }
     #noticias2 {
-        background-color: #0a0f37;
+        background-color: map-get($colores, "fondotexto");
         width: auto;
         margin-top: 2vw;
-        border: 1px solid #f00;
+        border: 1px solid map-get($colores, "baserojo")0;
         grid-area: noticias2;
-        color: white;
+        color: map-get($colores, "texto");
         img {
             max-height: 20em;
             float: left;
@@ -73,12 +73,12 @@
         }
     }
     #noticias3 {
-        background-color: #0a0f37;
+        background-color: map-get($colores, "fondotexto");
         width: auto;
         margin-top: 2vw;
-        border: 1px solid #f00;
+        border: 1px solid map-get($colores, "baserojo");
         grid-area: noticias3;
-        color: white;
+        color: map-get($colores, "texto");
         img {
             max-height: 20em;
             float: left;

@@ -1,16 +1,16 @@
 #maingaleria {
     width: auto;
-    background: #182069;
-    font-family: 'Raleway', sans-serif;
+    background: map-get($colores, "baseazul");
+    font-family: $tipografia-raleway;
     #maintitulo {
         font-weight: 400;
         text-align: center;
         padding: 20px 0;
         font-size: 40px;
-        color: white;
+        color: map-get($colores, "texto");
     }
     .linea {
-        background: #f00;
+        background: map-get($colores, "baserojo");
         height: 5px;
         width: auto;
         display: block;
@@ -66,8 +66,8 @@
             position: relative;
             top: -300px;
             right: 40px;
-            background: #f00;
-            color: white;
+            background: map-get($colores, "baserojo");
+            color: map-get($colores, "texto");
             width: 40px;
             height: 40px;
             text-decoration: none;
@@ -78,8 +78,8 @@
         }
         .next {
             display: block;
-            background: #f00;
-            color: white;
+            background: map-get($colores, "baserojo");
+            color: map-get($colores, "texto");
             height: 30px;
             width: 30px;
             line-height: 30px;
