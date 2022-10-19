@@ -52,7 +52,7 @@
         background-color: map-get($colores, "fondotexto");
         width: auto;
         margin-top: 2vw;
-        border: 1px solid map-get($colores, "baserojo")0;
+        border: 1px solid map-get($colores, "baserojo");
         grid-area: noticias2;
         color: map-get($colores, "texto");
         img {
