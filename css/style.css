@@ -713,7 +713,7 @@ header nav ul li a:hover {
 #mainhistoria section #textohistoria {
   color: white;
   background-color: #0a0f37;
-  margin: 4vw 8vw;
+  margin: 4vw 8vw 2vw 8vw;
   line-height: 1.6;
   border: 2px solid #182069;
   border-radius: 3%;
@@ -724,7 +724,23 @@ header nav ul li a:hover {
   font-size: 20px;
   font-weight: 500;
 }
+#mainhistoria section .fundadores {
+  border: 2px solid;
+  -webkit-box-shadow: 0 0 20px goldenrod;
+          box-shadow: 0 0 20px goldenrod;
+  border-radius: 3%;
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  margin: 0 2em;
+}
 
+@media screen and (max-width: 802px) {
+  .fundadores {
+    height: 250px !important;
+    width: 170px !important;
+  }
+}
 @media screen and (max-width: 620px) {
   #titulohistoria {
     font-size: 50px !important;
