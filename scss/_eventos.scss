@@ -54,21 +54,7 @@
             font-weight: 700;
         }
         ol{
-            .categoria {
-                margin: 1vw;
-                border: 2px dotted map-get($colores, "sombreado");
-                text-align: center;
-                line-height: 1.6;
-            }
-            p {
-                border: 1px solid map-get($colores, "baserojo");
-                margin-top: .3em;
-                margin-bottom: .5em;
-                padding: .3em 1em;
-                display: inline-block;
-                background-color: map-get($colores, "baseazul");
-                color: map-get($colores, "texto");
-            }
+            @include lista-categoria;
         }
     }
 }
