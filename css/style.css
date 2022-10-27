@@ -300,7 +300,7 @@ header nav ul li a:hover {
 
   .main__section--img {
     padding: 4vw;
-    max-height: 12em !important;
+    max-height: 20em !important;
     float: none !important;
     -ms-flex-line-pack: center !important;
         align-content: center !important;
@@ -367,30 +367,30 @@ header nav ul li a:hover {
 }
 @media screen and (max-width: 375px) {
   #noticias1 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 80%;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    width: auto !important;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 2vw;
+    margin-top: 4vw !important;
   }
 
   #noticias2 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 80%;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    width: auto !important;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 2vw;
+    margin-top: 4vw !important;
   }
 
   #noticias3 {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-    width: 80%;
+    width: auto !important;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 4vw !important;

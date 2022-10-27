@@ -62,7 +62,7 @@
 
     .main__section--img {
         padding: 4vw;
-        max-height: 12em !important;
+        max-height: 20em !important;
         float: none !important;
         align-content: center !important;
     }
@@ -123,24 +123,24 @@
 
 @media screen and (max-width: 375px) {
     #noticias1 {
-        align-items: center;
-        width: 80%;
+        align-items: center !important;
+        width: auto !important;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 2vw;
+        margin-top: 4vw !important;
     }
 
     #noticias2 {
-        align-items: center;
-        width: 80%;
+        align-items: center !important;
+        width: auto !important;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 2vw;
+        margin-top: 4vw !important;
     }
 
     #noticias3 {
         align-items: center !important;
-        width: 80%;
+        width: auto !important;
         margin-left: 1em;
         margin-right: 1em;
         margin-top: 4vw !important;
